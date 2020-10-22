@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		30E394BB254141490024B20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E394BA254141490024B20A /* AppDelegate.swift */; };
-		30E394BD254141490024B20A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E394BC254141490024B20A /* SceneDelegate.swift */; };
 		30E394BF254141490024B20A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E394BE254141490024B20A /* ViewController.swift */; };
 		30E394C2254141490024B20A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E394C0254141490024B20A /* Main.storyboard */; };
 		30E394C42541414B0024B20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E394C32541414B0024B20A /* Assets.xcassets */; };
 		30E394C72541414B0024B20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E394C52541414B0024B20A /* LaunchScreen.storyboard */; };
+		30E394D0254141830024B20A /* HideMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E394CF254141820024B20A /* HideMyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30E394B7254141490024B20A /* DataLeakage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataLeakage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E394BA254141490024B20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30E394BC254141490024B20A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		30E394BE254141490024B20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30E394C1254141490024B20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30E394C32541414B0024B20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E394C62541414B0024B20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30E394C82541414B0024B20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E394CF254141820024B20A /* HideMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideMyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				30E394BA254141490024B20A /* AppDelegate.swift */,
-				30E394BC254141490024B20A /* SceneDelegate.swift */,
 				30E394BE254141490024B20A /* ViewController.swift */,
+				30E394CF254141820024B20A /* HideMyViewController.swift */,
 				30E394C0254141490024B20A /* Main.storyboard */,
 				30E394C32541414B0024B20A /* Assets.xcassets */,
 				30E394C52541414B0024B20A /* LaunchScreen.storyboard */,
@@ -137,9 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E394D0254141830024B20A /* HideMyViewController.swift in Sources */,
 				30E394BF254141490024B20A /* ViewController.swift in Sources */,
 				30E394BB254141490024B20A /* AppDelegate.swift in Sources */,
-				30E394BD254141490024B20A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DataLeakage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DataLeakage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
